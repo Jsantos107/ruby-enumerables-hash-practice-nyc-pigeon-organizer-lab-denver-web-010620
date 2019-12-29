@@ -57,5 +57,9 @@ def nyc_pigeon_organizer
       new_hash[hash][key]= [] 
     end 
     
-  return new_hash[name][key] << new_value 
+  new_hash[name][key] << new_value 
+end 
+end 
+end 
+return new_hash
   end
