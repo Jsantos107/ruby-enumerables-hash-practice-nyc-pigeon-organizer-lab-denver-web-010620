@@ -46,7 +46,7 @@ pigeon_list = {
 def nyc_pigeon_organizer
   new_hash = {}
   data.each do = |key, value|
-  value.each do = |new_valie, names|
+  value.each do = |new_value, names|
   names.each do |name|
     
     if !names_hash[name]
@@ -57,5 +57,5 @@ def nyc_pigeon_organizer
       new_hash[hash][key]= [] 
     end 
     
-    return new_hash
+  return new_hash[name][key] << new_value 
   end
