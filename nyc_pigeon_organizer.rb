@@ -36,30 +36,25 @@ pigeon_list = {
   }
 }
 
-
-def nyc_pigeon_organizer(data)
- new_hash = {}
-  data.each do |key, value|
-    value.each do |new_value, names|
-
-      naes.each do |name|
-
-        if !new_hash[name]
-          new_hash[name] = {}
-        end
-
-        if !new_hash[name][key]
-          new_hash[name][key] = []
-        end
-
-        new_hash[name][key] << new_value.to_s
-
-      end
-    end
-  end
-  new_hash
-end
+  #      new_hash[name][key] << new_value.to_s
+#
+ #     end
+#    end
+#  end
+#  new_hash
+#end
 def nyc_pigeon_organizer
   new_hash = {}
   data.each do = |key, value|
-  value.each do = |key, value|
+  value.each do = |new_valie, names|
+  names.each do |name|
+    
+    if !names_hash[name]
+      new_hash[name] = {}
+    end
+    
+    if !new_hash[name][key]
+      new_hash[hash][key]= [] 
+    end 
+    
+    return new_hash
