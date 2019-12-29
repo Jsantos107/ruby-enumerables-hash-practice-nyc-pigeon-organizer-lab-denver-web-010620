@@ -48,7 +48,7 @@ def nyc_pigeon_organizer
     end
     
     if !new_hash[name][key]
-      new_hash[hash][key]= [] 
+      new_hash[name][key]= [] 
     end 
     
   new_hash[name][key] << new_value.to_s
