@@ -36,13 +36,7 @@ pigeon_list = {
   }
 }
 
-  #      new_hash[name][key] << new_value.to_s
-#
- #     end
-#    end
-#  end
-#  new_hash
-#end
+
 def nyc_pigeon_organizer
   new_hash = {}
   data.each do = |key, value|
@@ -57,7 +51,7 @@ def nyc_pigeon_organizer
       new_hash[hash][key]= [] 
     end 
     
-  new_hash[name][key] << new_value 
+  new_hash[name][key] << new_value.to_s
 end 
 end 
 end 
