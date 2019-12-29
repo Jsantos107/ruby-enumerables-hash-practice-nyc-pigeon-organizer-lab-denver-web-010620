@@ -55,5 +55,5 @@ def nyc_pigeon_organizer
 end 
 end 
 end 
-return new_hash
+new_hash
   end
