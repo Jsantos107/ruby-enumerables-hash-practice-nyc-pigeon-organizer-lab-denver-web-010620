@@ -59,3 +59,7 @@ def nyc_pigeon_organizer(data)
   end
   new_hash
 end
+def nyc_pigeon_organizer
+  new_hash = {}
+  data.each do = |key, value|
+  value.each do = |key, value|
