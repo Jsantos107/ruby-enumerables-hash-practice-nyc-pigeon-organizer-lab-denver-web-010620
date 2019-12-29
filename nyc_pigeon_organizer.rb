@@ -39,8 +39,8 @@ pigeon_list = {
 
 def nyc_pigeon_organizer (data)
   new_hash = {}
-  data.each do = |key, value|
-  value.each do = |new_value, names|
+  data.each do |key, value|
+  value.each do |new_value, names|
   names.each do |name|
     
     if !names_hash[name]
@@ -48,7 +48,7 @@ def nyc_pigeon_organizer (data)
     end
     
     if !new_hash[name][key]
-      new_hash[name][key]= [] 
+      new_hash[name][key] = [] 
     end 
     
   new_hash[name][key] << new_value.to_s
